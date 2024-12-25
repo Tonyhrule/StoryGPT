@@ -1,6 +1,14 @@
 from openai import OpenAI
-import json
-client = OpenAI()
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+# Retrieve the API key
+api_key = os.getenv("OPENAI_API_KEY")
+
+# Initialize the OpenAI client with the API key
+client = OpenAI(api_key=api_key)
 
 #Agent 1: Idea generator
 response1 = client.chat.completions.create(
