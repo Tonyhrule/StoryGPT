@@ -1,5 +1,5 @@
 ## Overview
-Welcome to Story GPT, an application designed to generate endless stories with just a click of a button! Our system builds on a simple multi-agent pipeline that leverages the OpenAI API to expertly craft engaging fictional narratives from scratch. These AI agents work collaboratively to generate short stories while maintaining a transparent overview of the story-creation process, providing both the story idea and initial description in addition to the narrative itself. 
+Welcome to StoryGPT, an application designed to generate endless stories with just a click of a button! Our system builds on a simple multi-agent pipeline that leverages the OpenAI API to expertly craft engaging fictional narratives from scratch. These AI agents work collaboratively to generate short stories while maintaining a transparent overview of the story-creation process, providing both the story idea and initial description in addition to the narrative itself. 
 ## System Requirements
 * Python 3.13 or higher
 ## Main Components
@@ -13,7 +13,7 @@ Welcome to Story GPT, an application designed to generate endless stories with j
 1. Clone this repository:
    ```
    git clone https://github.com/Tonyhrule/story-gpt.git
-   cd story-gpt
+   cd storygpt
    ```
 2. Install dependencies:
    ```
@@ -25,7 +25,7 @@ Welcome to Story GPT, an application designed to generate endless stories with j
    ```
 ## Project Structure
 ```
-story-gpt/
+storygpt/
 │
 ├── README.md                  # Project overview and setup instructions
 ├── requirements.txt           # Python dependencies
@@ -42,4 +42,4 @@ story-gpt/
 You can customize the length of the stories or change the genre and style through editing each agent prompt in main.py
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Tonyhrule/Story-GPT/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Tonyhrule/StoryGPT/blob/main/LICENSE) file for details.
