@@ -9,7 +9,7 @@ Welcome to Story GPT, an application designed to generate endless stories with j
 3. Story Writier Agent: Generates a 250-750 word story given the idea and outline.
 4. Title Generator Agent: Produces a 1-word title for the story.
 5. Saved Stories: Each story is saved in an individual JSON file under the outputs folder
-## Getting Started
+## Installation
 1. Clone this repository:
    ```
    git clone https://github.com/Tonyhrule/story-gpt.git
