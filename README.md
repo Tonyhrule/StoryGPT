@@ -40,3 +40,6 @@ story-gpt/
 ```
 ## Customization
 You can customize the length of the stories or change the genre and style through editing each agent prompt in main.py
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Tonyhrule/Story-GPT/blob/main/LICENSE) file for details.
